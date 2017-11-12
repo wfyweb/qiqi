@@ -1,2 +1,2 @@
 # qiqi
-Just contact the world's largest gay dating network
+The code really artifact through it but to achieve good things, this is her gift.
