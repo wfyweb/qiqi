@@ -10,18 +10,15 @@
     //       \\
    //|   .   |\\
    "'\       /'"_.-~^`'-.
-      \  _  /--'    
+      \  _  /--'
     ___)( )(___
-   (((__) (__)))   
-   
+   (((__) (__)))
+
    the valiant knights of programming who toil away.
-	小白建站，持续更新中！
 -->
 <html lang="en" onselectstart="return false">
  <head>
   <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
   <meta name="Keywords" content="web前端博客,html5,web前端笔记,web前端开发,JavaScript,jQuery,css3,html,css,王方远的博客">
   <meta name="Description" content="王方远的博客，,王方远(Handsome)的网站,个人前端笔记与案例展示、学习经验交流！">
   <title>Handsome</title>
@@ -38,9 +35,9 @@
   <link rel="stylesheet" href="css/style.css" type="text/css"/>
  </head>
  <body >
-		<!-- <audio autoplay="autoplay" loop="loop">
+		<audio autoplay="autoplay" loop="loop">
 			<source src="music/2.mp3" type="audio/mpeg"></source>
-		</audio> -->
+		</audio>
 		<div id="bg">让我留恋的<br />或许只剩你了吧！</div>
 		<div id="con" class="con">
 			<div id="pa" class="pa">
@@ -75,15 +72,15 @@
 		</ul>
 		<div id='span'></div>
 		<!-- <div style="clear:both"></div> -->
-		
-		<div  id="writ" class="writ">	
+
+		<div  id="writ" class="writ">
 			<div id="writing" class="writing">
 				<!-- <div class="">再见！</div> -->
 			</div>
 			<div id="spare" class="spare" style="display:none">
 				<h3>悲伤的五个阶段</h3>
 				<p class="font">全世界只有不到 2% 的人关注了我</p>
-				<p class="font">你真是特别的人！</p>	
+				<p class="font">你真是特别的人！</p>
 				<p style="margin-top:20px">从前，在医院里，医生和护士都非常怕去治疗那些患有绝症的病人，一来他们知道治疗非常困难，二来因为这些病人情绪不太稳定，一直到一位瑞士的心理学家，他经过了很长时间去陪伴这些病人，通过他的研究发现，这些人并非无理取闹，其实是很有规则的起承和转合。</p>
 				<p>一般分为五个阶段，首先当一个病人获得不好消息的时候，他会抗拒，“什么，有没有搞错，我这么健康怎么可能有病。”第二个阶段他会开始愤怒，“啊！这样的事情为什么发生我身上，我是个好人呐！ ”第三个阶段他会开始跟命运讨价还价。“哎呦！拜托你，如果这次的验血报告回来是正常的话，那么我会吃素一年。不不不，我吃素一辈子。”可是当讨价还价都没有用的时候，这些病人就会落入反常，很深的低潮，那么很多人就在这个时候会放弃希望，不过他们如果可以撑得久点，去转变那个心态的话。那他们就会到第五个阶段，那就叫做接纳，然后在这个阶段里面他们坦然的面对，他们接受现实，甚至有很多人可以从那个处境当中，获得正面的力量，让他们有足够的勇气和信心去面对接下来的日子。</p>
 				<p>分享一个刘轩经历，可以让大家一起去体验这五个阶段。</p>
@@ -100,9 +97,9 @@
 				<p>每一段悲伤都是一段教训，来提醒我们必须要珍惜在一起的机会。每一个缺陷都是一个机会，让我们可以用人生的爱来抚平它。每一次出门都是离别，每一次回家都是相聚，就是因为人生
 				充满了无常，所以我们更是要好好的应对，正是因为你我有一天都会离开这个世界。所以我们更是要把握每一个当下，每一段相聚，每一个美好的今天！ </p>
 				<p class="font1" >一篇具有深度的文章</p>
-				
+
 			</div>
-		</div>	
+		</div>
 		<div id="project">
 			<section class="items">
 				<nav class="main-nav">
@@ -127,28 +124,28 @@
 			<div class="re_bg"></div>
 			<p class="size">返回顶部</p>
 		</div>
-		
+
 	 	<script src="js/timeMove.js"></script>
 		<script src="js/move.js"></script>
 		<!-- 文字淡入 -->
 		<script type="text/javascript">
-			window.onload=function(){ 
+			window.onload=function(){
 			var oLi = document.getElementById('list').children;
 			var index = 0;
 			var len = oLi.length;
-			setTimeout(		
+			setTimeout(
 				function print(){
 					var arr = [];
 					for ( var i=0;i<len;i++ )
 					{
 						arr.push(oLi[i]);
-					};	
+					};
 					fadeIn( oLi[index] );
 					index++;
 					var t = setTimeout(print,900);
 					if (index >=len)clearTimeout(t);
 				},2000)
-		
+
 				function fadeIn( obj ){
 					var num = 0;
 					var timer = setInterval(function(){
@@ -171,7 +168,7 @@
 				var nowTime = new Date( 2013,11,15 );
 				nowDate = date-nowTime ;
 				span.innerHTML = '距2013,11,15开始已过：'+'<br>'+
-				
+
 				zero(Math.floor(nowDate/1000/3600/24))+' 天，'+
 				zero(Math.floor(nowDate/1000/3600%24))+' 时，'+
 				zero(Math.floor(nowDate/1000%3600/60))+' 分 '+
@@ -188,8 +185,8 @@
 			var conut = 0;
 			var timer = setInterval(play,4000);
 			function play(){
-				
-				if ( num == aDiv.length-1  ) 
+
+				if ( num == aDiv.length-1  )
 				{
 					// 把第一个li放到最后的位置上
 					box.style.position = 'relative';
@@ -215,7 +212,7 @@
 			con.onmouseover = function(){
 				move( con , {marginTop:150} , 200 , 'linear',function(){
 					move( con , {marginTop:220} , 300 , 'linear',function(){
-						move( con , {marginTop:180} , 400 , 'linear',function(){ 
+						move( con , {marginTop:180} , 400 , 'linear',function(){
 							move( con , {marginTop:200}, 500 , 'linear' );
 						})
 					})
@@ -232,13 +229,13 @@
 			var oPro = document.getElementById('project');
 			var i=0;
 			var timer;
-			
+
 			oCon.onclick = function(){
 				oCon.style.display = "none";
 				oPro.style.display = "none";
 				move( oWrit , {marginLeft:300,marginTop:223,}, 800 , "bounceOut",function()
 				{
-					oWrit.style.cssText = "margin:223px auto 0px";	
+					oWrit.style.cssText = "margin:223px auto 0px";
 
 				});
 				setTimeout( function(){
@@ -248,18 +245,18 @@
 			oWrit.onclick = function(){
 				oCon.style.display = "none";
 				oWrit.style.display = "none";
-				pa.style.display = "none";						
+				pa.style.display = "none";
 				bg.style.display = "block";
 				document.body.style.background="black";
-			};	
-			function play(){	
+			};
+			function play(){
 				oWriting.innerHTML = oSpare.substring(0,i);
 					if ( i >  oSpare.length ){
 						clearInterval(timer);
 					}
 					i++;
 			};
-		</script> 
+		</script>
 		<!-- 返回顶部 -->
 		<script type="text/javascript">
 			var oR = document.getElementById('return');
@@ -288,8 +285,8 @@
 					}
 					document.body.scrollTop = s;
 					document.documentElement.scrollTop = s;
-				},13)			
+				},13)
 			};
-		</script> 
+		</script>
  </body>
 </html>
